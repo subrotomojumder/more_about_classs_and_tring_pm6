@@ -1,2 +1,1 @@
-
-    cout << word << e
+endl
