@@ -1,2 +1,2 @@
 
-    getline(cin, s);
+    cout << word << e
