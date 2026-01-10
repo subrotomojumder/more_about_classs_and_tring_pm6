@@ -18,10 +18,13 @@ int main()
     Cricketer *kohli = new Cricketer("India", 12);
     // cout << dhoni->country << endl;
     // kohli = dhoni; // evabe value assign korle memory ref soho assign hoi.
-    kohli->country = dhoni->country;
-    kohli->jersy = dhoni->jersy;
+    // manualy value assign for every property
+    // kohli->country = dhoni->country;
+    // kohli->jersy = dhoni->jersy;
+    // perfect way for value assign
+    *kohli = *dhoni;
     delete dhoni;
-    // cout << dhoni->jersy << endl;
+    cout << dhoni->jersy << endl;
     cout << kohli->country << " " << kohli->jersy << endl;
     return 0;
 }
