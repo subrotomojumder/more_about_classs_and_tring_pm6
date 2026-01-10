@@ -1,2 +1,1 @@
-assign
-    *kohli = *dhoni;
+word
